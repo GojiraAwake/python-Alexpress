@@ -114,8 +114,9 @@ with open("j2_web_data.json", "w") as outfile:
 outfile.close()
 
 print('-----------------------------------------------------------------------')
-print ("err_times"+str(err_times))
-print ("err_status"+str(err_status))       
+print()
+print ("count the num  of the web site is not right: err_times"+str(err_times))
+print (" count the num of no  webesite response: err_status"+str(err_status))       
 print('-----------------------------------------------------------------------')
 print("this process is finish , check the j2_web_data.josn  formath is right ")
 print("check it in this website:  https://www.json.cn/")
